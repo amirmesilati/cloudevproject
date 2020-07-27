@@ -1,0 +1,15 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-healthproject-prod-165429-authRole",
+            "UnauthRoleArn": "arn:aws:iam::513113524584:role/amplify-healthproject-prod-165429-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::513113524584:role/amplify-healthproject-prod-165429-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-healthproject-prod-165429-deployment",
+            "UnauthRoleName": "amplify-healthproject-prod-165429-unauthRole",
+            "StackName": "amplify-healthproject-prod-165429",
+            "StackId": "arn:aws:cloudformation:us-east-1:513113524584:stack/amplify-healthproject-prod-165429/b30fe940-d010-11ea-b20a-12843ea8a65b",
+            "AmplifyAppId": "d1iroizolr290h"
+        }
+    }
+}

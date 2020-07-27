@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "medics",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "medics",
+    "apiName": "medics",
+    "functionArns": [
+        {
+            "lambdaFunction": "medics"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-healthproject-prod-165429-authRole",
+        "unAuthRoleName": "amplify-healthproject-prod-165429-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "medics",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

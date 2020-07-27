@@ -1,0 +1,7 @@
+{
+    "tableName": "medics",
+    "partitionKeyName": "medic",
+    "partitionKeyType": "S",
+    "sortKeyName": "description",
+    "sortKeyType": "S"
+}
