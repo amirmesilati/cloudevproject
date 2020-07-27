@@ -35,7 +35,8 @@ import { StorePageComponent } from './components/store-page/store-page.component
 import { CartPageComponent } from './components/cart-page/cart-page.component';
 import { EditformComponent } from './components/editform/editform.component';
 import { CommonModule } from '@angular/common';
-import { PaymentpageComponent } from './components/paymentpage/paymentpage.component';  
+import { PaymentpageComponent } from './components/paymentpage/paymentpage.component';
+import { DynamodbComponent } from './dynamodb/dynamodb.component';  
 
 const appRoutes: Routes = [
   { path: 'welcome', component: WelcomeComponent },
@@ -49,6 +50,7 @@ const appRoutes: Routes = [
   { path: 'cart-page', component: CartPageComponent },
   { path: 'editform/:id', component: EditformComponent },
   { path: 'paymentpage/:name/:price', component: PaymentpageComponent },
+  { path: 'dynamodb', component: DynamodbComponent },
 
 
   { path: "",
@@ -71,7 +73,8 @@ const appRoutes: Routes = [
     StorePageComponent,
     CartPageComponent,
     EditformComponent,
-    PaymentpageComponent
+    PaymentpageComponent,
+    DynamodbComponent
   ],
   imports: [
     BrowserModule,
